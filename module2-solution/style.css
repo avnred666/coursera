@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   margin: 20px;
 }
-section{
+div.section{
 	background-color: #999999;
 	position: relative;
 	margin-right: 5px;
@@ -78,7 +78,7 @@ p.content {
 	font-size: 80%;
 	height: 80%;
 }
-/* Simple Responsive Framework. */
+/* Responsive Framework */
 .row {
   width: 100%;
   position:relative;
@@ -88,8 +88,7 @@ p.content {
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-    border: 1px solid black;
-    width: 30%;
+    width: 33.3%;
   }
 }
 
@@ -97,13 +96,12 @@ p.content {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     float: left;
-    border: 1px solid black;
-    width: 45%;
+    width: 50%;
   }
 
 @media (min-width: 768px) and (max-width: 991px){
   	#sushi{
-	width:91%;
+	width:100%;
 	margin-top:10px;
 }
 }
