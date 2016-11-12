@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border:1px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list{
+  text-align: center;
+  background-color:#f4f9f9;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sec_chicken{
+  background-color: grey;
+  height: 1000px;
+}
+
+h4{
+  font-weight: bold;
+  font-family: 'Lora', serif;
+}
+
+p{
+  font-size:1em;
+}
+
+#navlinks{
+  border-bottom:1px solid black;
+}
